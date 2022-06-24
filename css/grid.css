@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+
+    --blue-main: #6464ff;
+    --blue-dark: #5757e9;
+    --white-main:#ffff;
+    --black-main: #333333;
+    --font-1: 'Open Sans', sans-serif;
+
+}
+
+.grid_v{
+    text-align: center;
+    padding: 2.2em;
+    margin: 1em;
+    padding-top: 2.5em;
+    
+}
+.grid_v span{
+    padding: 0.9em;
+    color: var(--blue-main);
+    font-weight: 700;
+    font-family: var(--font-1);
+    font-size: 1.7em;
+}
+.hr{
+    border: none;
+    border-top: 1px solid var(--blue-dark);
+    width: 2em;
+ padding-bottom: 0.7em;
+}
+.grid_v h1{
+    padding-bottom: 0.9em;
+    color: var(--black-main);
+    font-size: 1em;
+}
+
+.grid_it_main{
+display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    justify-content: center;
+    column-gap: 2em;
+    row-gap: 2em;
+    padding: 0px 5em;
+    
+
+}
+.grid_it_main .crd{
+
+    background-color: rgba(0, 0, 0, 0.1);
+    /* border-radius: 0.5em; */
+    padding: 0;
+    border-bottom: 2px solid var(--blue-dark);
+    transition:all 0.5s ease;
+
+    
+}
+.grid_it_main .crd1{
+
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: var(--blue-main);
+    color: #ffff;
+    /* border-radius: 0.5em; */
+    padding: 0;
+    border-bottom: 2px solid var(--blue-dark);
+    transition:all 0.5s ease;
+
+    
+}
+.grid_it_main .crd i{
+    color: var(--pur2);
+    font-size: 2em;
+    padding-top: 0.7em;
+}
+.grid_it_main .crd:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    border-bottom: none;
+    
+}
+.grid_it_main .crd .crd_body{
+    padding: 1em;
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: var(--black-main);
+}
+
+.grid_it_main .crd .crd_body p{
+    font-size: 0.8em;
+    padding: 1em;
+    
+}
+.grid_it_main .crd .crd_body h2{
+    color: var(--black-main);
+    /* font-weight: ; */
+}
+
+.grid_it_main .crd img{
+    width: 100%;
+}
+.grid_it_main .crd .crd_footer {
+    padding-bottom: 0em;
+    position: relative;
+
+
+}
+.grid_it_main .crd .crd_footer button {
+    padding: 0.5em 1em;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 1); */
+    background-color: var(--blue-dark);
+    border: none;
+    color: var(--white-main);
+    text-transform: capitalize;
+    transition: 0.5s ease-in-out;
+    /* visibility: hidden; */
+    
+}
+.grid_it_main .crd .crd_footer button:hover {
+    background-color: var(--blue-dark);
+    color: var(--white-main);
+
+}
+.grid_v .btn_more_f{
+
+    padding-top: 2.5em;
+
+
+}
+.grid_v .btn_more_f button{
+    padding: 0.7em 1.7em;
+    background-color: rgba(0, 0, 0, 0.1);
+    border:none;
+    cursor: pointer;
+    border-bottom:2px solid var(--blue-dark) ;
+transition: all 0.5s ease-in;
+    color: var(--black-main);
+}
+.grid_v .btn_more_f button:hover{
+    background-color: var(--blue-dark);
+    color: var(--white-main);
+}
+.se_icon{
+margin: 0;
+}
+.lni-rupee{
+    font-size: 0.5em;
+}
